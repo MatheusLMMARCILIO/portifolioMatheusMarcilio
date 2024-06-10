@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    transition: .5s;
+}
+
+body.dark {
+    background-color: #292929;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.link ul,
+li {
+    display: flex;
+    margin: 10px;
+}
+
+.link a {
+    font-size: 20px;
+    color: black;
+    font-family: 'inter', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.link.dark a {
+    color: white;
+}
+
+.link a:focus {
+    color: #7248FB;
+}
+
+.btnDarkLight {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #ECECEC;
+    cursor: pointer;
+    position: relative;
+    transition: .5s;
+}
+
+.trilho {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    transform: scale(.9);
+    position: absolute;
+    transition: .5s;
+
+
+}
+
+.btnDarkLight.dark {
+    background-color: #4d4d4d;
+}
+
+.btnDarkLight.dark .trilho {
+    left: 50px;
+    background-color: black;
+}
+
+.whoIAm {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+
+}
+
+.leftText span {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.leftText.dark span {
+    color: white;
+}
+
+.leftText h1 {
+    font-size: 45px;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: 'inter', sans-serif;
+    transition: .5s;
+}
+
+.leftText.dark h1 {
+    color: white;
+}
+
+.leftText p {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'inter', sans-serif;
+    transition: .5s;
+}
+
+.leftText.dark p {
+    color: white;
+}
+
+.leftBtn button {
+    width: 120px;
+    height: 42px;
+    background-color: #7248FB;
+    border-radius: 50px;
+    border: 1px solid #7248FB;
+    cursor: pointer;
+}
+
+.leftBtn a {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.textRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textRight span {
+    font-size: 300px;
+    font-family: 'inter', sans-serif;
+    color: #7248FB;
+}
+
+.textRight img {
+    margin-top: 40px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.aboutMe {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutMeText span {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.aboutMeText.dark span {
+    color: white;
+}
+
+.aboutMeText h1 {
+    font-size: 45px;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: 'inter', sans-serif;
+    transition: .5s;
+}
+
+.aboutMeText.dark h1 {
+    color: white;
+}
+
+.aboutMeText p {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'inter', sans-serif;
+    transition: .5s;
+
+}
+
+.aboutMeText.dark p {
+    color: white;
+}
+
+.myHabilities {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.myHabilities span {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.myHabilities.dark span {
+    color: white;
+}
+
+.myHabilities h1 {
+    font-size: 45px;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: 'inter', sans-serif;
+    transition: .5s;
+}
+
+.myHabilities.dark h1 {
+    color: white;
+}
+
+.Icons {
+    display: flex;
+    margin-top: 50px;
+}
+
+.part1, .part2  {
+    display: flex;
+}
+
+.html,
+.css,
+.js,
+.react,
+.figma,
+.gitHub,
+.part3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.html img,
+.css img,
+.js img,
+.gitHub img,
+.part3 img
+ {
+    width: 60px;
+}
+
+.figma img{
+    width: 38px;
+}
+
+.react img {
+    width: 65px;
+}
+
+.html span,
+.css span,
+.js span,
+.react span,
+.figma span,
+.gitHub span,
+.part3 span {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.projects{
+    width: 100%;
+    height: auto;
+    background-color: #7248FB;
+}
+
+.projectsText {
+padding: 50px 50px 50px;
+}
+
+.projectsText span{
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.projectsText.dark span {
+    color: white;
+}
+
+.projectsText h1 {
+    font-size: 45px;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-family: 'inter', sans-serif;
+    transition: .5s;
+}
+
+.projectsText.dark h1 {
+    color: white;
+}
+
+.projectsText p {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'inter', sans-serif;
+    transition: .5s;
+}
+
+.projectsText.dark p {
+    color: white;
+}
