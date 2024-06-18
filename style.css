@@ -17,8 +17,6 @@ body.dark {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .link ul,
@@ -62,8 +60,6 @@ li {
     transform: scale(.9);
     position: absolute;
     transition: .5s;
-
-
 }
 
 .btnDarkLight.dark {
@@ -74,6 +70,7 @@ li {
     left: 50px;
     background-color: black;
 }
+/**************************************************/
 
 .whoIAm {
     width: 100%;
@@ -173,6 +170,76 @@ li {
     width: 200px;
     border-radius: 20px;
 }
+/***********************************/
+
+@media screen and (max-width: 1081px) {
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .trilho {
+        width: 36px;
+        height: 36px;
+        background-color: white;
+        border-radius: 50px;
+        transform: scale(.9);
+        position: absolute;
+        transition: .5s;
+    }
+
+    .btnDarkLight {
+        width: 87px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #ECECEC;
+        cursor: pointer;
+        position: relative;
+        transition: .5s;
+    }
+
+/********************************/
+
+.whoIAm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .aboutMe {
     width: 100%;
