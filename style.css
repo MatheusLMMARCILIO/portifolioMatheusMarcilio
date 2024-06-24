@@ -70,6 +70,9 @@ li {
     left: 50px;
     background-color: black;
 }
+
+
+
 /**************************************************/
 
 .whoIAm {
@@ -170,84 +173,16 @@ li {
     width: 200px;
     border-radius: 20px;
 }
-/***********************************/
 
-@media screen and (max-width: 1081px) {
-    
-    .menu {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .trilho {
-        width: 36px;
-        height: 36px;
-        background-color: white;
-        border-radius: 50px;
-        transform: scale(.9);
-        position: absolute;
-        transition: .5s;
-    }
-
-    .btnDarkLight {
-        width: 87px;
-        height: 50px;
-        border-radius: 50px;
-        background-color: #ECECEC;
-        cursor: pointer;
-        position: relative;
-        transition: .5s;
-    }
-
-/********************************/
-
-.whoIAm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*******************************************/
 
 .aboutMe {
     width: 100%;
-    height: 600px;
+    height: 500px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
 .aboutMeText span {
@@ -280,7 +215,6 @@ li {
     font-size: 14px;
     color: black;
     font-weight: 500;
-    margin-bottom: 20px;
     font-family: 'inter', sans-serif;
     transition: .5s;
 
@@ -290,9 +224,12 @@ li {
     color: white;
 }
 
+
+/*************************************************/
+
 .myHabilities {
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -331,7 +268,8 @@ li {
     margin-top: 50px;
 }
 
-.part1, .part2  {
+.part1,
+.part2 {
     display: flex;
 }
 
@@ -353,12 +291,11 @@ li {
 .css img,
 .js img,
 .gitHub img,
-.part3 img
- {
+.part3 img {
     width: 60px;
 }
 
-.figma img{
+.figma img {
     width: 38px;
 }
 
@@ -379,17 +316,18 @@ li {
 
 }
 
-.projects{
+/******************************************************/
+.projects {
     width: 100%;
     height: auto;
     background-color: #7248FB;
 }
 
 .projectsText {
-padding: 50px 50px 50px;
+    padding: 50px 50px 50px;
 }
 
-.projectsText span{
+.projectsText span {
     font-size: 20px;
     color: black;
     margin-top: 10px;
@@ -426,4 +364,65 @@ padding: 50px 50px 50px;
 
 .projectsText.dark p {
     color: white;
+}
+
+@media screen and (max-width:1000px) {
+
+    .menu {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whoIAm {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .aboutMeText {
+        width: 50%;
+        font-size: 10px;
+    }
+
+    .Icons {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .projects {
+        width: 100%;
+        height: auto;
+        background-color: #7248FB;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
 }
