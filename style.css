@@ -321,10 +321,15 @@ li {
     width: 100%;
     height: auto;
     background-color: #7248FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .projectsText {
-    padding: 50px 50px 50px;
+    padding: 50px ;
 }
 
 .projectsText span {
@@ -365,6 +370,35 @@ li {
 .projectsText.dark p {
     color: white;
 }
+
+.allProjects {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jainEry, .GerenciadorSenha, .fastos {
+    margin: 30px;
+}
+
+.jainEry img , .GerenciadorSenha img, .fastos img {
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************/
+
 
 @media screen and (max-width:1000px) {
 
