@@ -478,4 +478,8 @@ li {
     .myHabilities {
         margin-bottom: 50px;
     }
+
+    .link a {
+        font-size: 12px;
+    } 
 }
