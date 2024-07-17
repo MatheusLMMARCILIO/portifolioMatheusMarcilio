@@ -5,6 +5,8 @@
 
 body {
     transition: .5s;
+    margin: 0;
+    padding: 0;
 }
 
 body.dark {
@@ -329,7 +331,7 @@ li {
 }
 
 .projectsText {
-    padding: 50px ;
+    padding: 50px;
 }
 
 .projectsText span {
@@ -378,11 +380,15 @@ li {
     justify-content: center;
 }
 
-.jainEry, .GerenciadorSenha, .fastos {
+.jainEry,
+.GerenciadorSenha,
+.fastos {
     margin: 30px;
 }
 
-.jainEry img , .GerenciadorSenha img, .fastos img {
+.jainEry img,
+.GerenciadorSenha img,
+.fastos img {
     width: 500px;
 }
 
@@ -403,15 +409,12 @@ li {
 @media screen and (max-width:1000px) {
 
     .menu {
-        width: 100%;
         height: 200px;
         display: flex;
         flex-direction: column;
     }
 
     .whoIAm {
-        width: 100%;
-        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -459,4 +462,20 @@ li {
         text-align: center;
     }
 
+}
+
+@media screen and (max-width:700px) {
+
+
+    .whoIAm {
+        margin-bottom: 50px;
+    }
+
+    .aboutMeText p {
+        font-size: 12px;
+    }
+
+    .myHabilities {
+        margin-bottom: 50px;
+    }
 }
