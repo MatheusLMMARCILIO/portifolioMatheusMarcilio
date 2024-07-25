@@ -383,20 +383,25 @@ li {
     justify-content: center;
 }
 
-.jainEry,
-.GerenciadorSenha,
-.fastos {
-    margin: 30px;
+.ProjectsLink {
+    display: flex;
+    flex-direction: column;
 }
 
-.jainEry img,
-.GerenciadorSenha img,
-.fastos img {
-    width: 500px;
+.passwordGeneretor img {
+max-width: 500px;
+    margin: 20px;
 }
 
+.jainery img {
+    max-width: 500px;
+    margin: 20px;
+}
 
-
+.Fastos img {
+    max-width: 500px;
+    margin: 20px;
+}
 
 
 
@@ -465,6 +470,22 @@ li {
         text-align: center;
     }
 
+    .passwordGeneretor img {
+        max-width: 400px;
+            margin: 20px;
+        }
+        
+        .jainery img {
+            max-width: 400px;
+            margin: 20px;
+        }
+        
+        .Fastos img {
+            max-width: 400px;
+            margin: 20px;
+        }
+        
+
 }
 
 @media screen and (max-width:700px) {
@@ -521,5 +542,21 @@ li {
 .textRight img {
 margin-left: 30px;
 }
+
+.passwordGeneretor img {
+    max-width: 300px;
+        margin: 20px;
+    }
+    
+    .jainery img {
+        max-width: 300px;
+        margin: 20px;
+    }
+    
+    .Fastos img {
+        max-width: 300px;
+        margin: 20px;
+    }
+    
 
 }
