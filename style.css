@@ -190,6 +190,10 @@ li {
 
 }
 
+.aboutMeText {
+    width: 600px;
+}
+
 .aboutMeText span {
     font-size: 20px;
     color: black;
