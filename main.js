@@ -9,7 +9,9 @@ const contact = document.querySelector('.contact')
 const email = document.querySelector('.email')
 const Whatsapp = document.querySelector('.Whatsapp')
 const Linkedin = document.querySelector('.Linkedin')
-const contact = document.querySelector('.contact')
+const GitHub = document.querySelector('.GitHub')
+const contactText = document.querySelector('.contactText')
+
 
 
 trilho.addEventListener('click', () => {
@@ -21,4 +23,10 @@ aboutMeText.classList.toggle('dark')
 myHabilities.classList.toggle('dark')
 projectsText.classList.toggle('dark')
 contact.classList.toggle('dark')
+email.classList.toggle('dark')
+Whatsapp.classList.toggle('dark')
+Linkedin.classList.toggle('dark')
+GitHub.classList.toggle('dark')
+contactText.classList.toggle('dark')
+
 })

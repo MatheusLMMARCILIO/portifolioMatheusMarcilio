@@ -421,6 +421,7 @@ li {
 
 .contact.dark {
     background-color: #292929;
+    color: white;
 }
 
 .contactText span {
@@ -433,6 +434,22 @@ li {
 }
 
 .contactText.dark span {
+    color: white;
+}
+
+.email.dark span, .email.dark p {
+    color: white;
+}
+
+.Whatsapp.dark span, .Whatsapp.dark a {
+    color: white;
+}
+
+.Linkedin.dark span, .Linkedin.dark a {
+    color: white;
+}
+
+.GitHub.dark span, .GitHub.dark a {
     color: white;
 }
 
@@ -488,6 +505,9 @@ li {
     flex-direction: column;
 }
 
+.FirstBlock {
+    display: flex;
+}
 
 
 /**************************************/
@@ -564,6 +584,10 @@ li {
         margin: 20px;
     }
 
+    .FirstBlock {
+        display:flex;
+        flex-direction: column;
+    }
 
 }
 
