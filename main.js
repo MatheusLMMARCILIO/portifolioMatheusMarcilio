@@ -5,6 +5,11 @@ const leftText = document.querySelector('.leftText')
 const aboutMeText = document.querySelector('.aboutMeText')
 const myHabilities = document.querySelector('.myHabilities')
 const projectsText = document.querySelector('.projectsText')
+const contact = document.querySelector('.contact')
+const email = document.querySelector('.email')
+const Whatsapp = document.querySelector('.Whatsapp')
+const Linkedin = document.querySelector('.Linkedin')
+const contact = document.querySelector('.contact')
 
 
 trilho.addEventListener('click', () => {
@@ -15,4 +20,5 @@ leftText.classList.toggle('dark')
 aboutMeText.classList.toggle('dark')
 myHabilities.classList.toggle('dark')
 projectsText.classList.toggle('dark')
+contact.classList.toggle('dark')
 })
